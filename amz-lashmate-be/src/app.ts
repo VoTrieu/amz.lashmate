@@ -80,7 +80,7 @@ sequelize.sync();
 server.start().then(() => {
   server.applyMiddleware({ app });
   
-  app.listen(3000, () => {
+  app.listen(8989, () => {
     console.log("Server running on port 3000");
   });
 });
